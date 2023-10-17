@@ -11,14 +11,14 @@ function Home() {
             <h6 className="text-3xl mt-12">Hello,I am</h6>
             <h1 className="font-semibold md:text-5xl my-4 text-3xl">Shafy Ali</h1>
             <Typed className='text-xl text-purple-400'
-                    strings={['Mern Stack Developer', 'React Developer', 'Node Developer', 'JavaScript']}
-                    typeSpeed={100}
+                    strings={['Mern Stack Developer', 'React Developer', 'Node js Developer', 'Mobile App Developer']}
+                    typeSpeed={80}
                     loop = {true}
-                    backSpeed={100}
+                    backSpeed={90}
 
                 />
                 <div className="mt-5">
-                  <button className="btn transition-all duration-500 rounded bg-purple-700 text-white hover:bg-white py-2 px-4">About me</button>
+                  <button className="btn transition-all duration-500 rounded bg-purple-700 text-white hover:bg-white py-2 px-4">Resume</button>
                   <button className="btn outline py-1.5 px-6 rounded border-none ml-5 text-white">Projects</button>
                 </div>
           </div>
